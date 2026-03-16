@@ -23,5 +23,31 @@ resultado = (numero*(numero + numero) + 33)
 # Aqui estamos mostrando o valor que está guardado dentro da variável resultado
 print(resultado)
 
+#Precedencia de operadones
+#Parenteses precendencia mais alta
+# Exponenciação
+# Multiplicação e a Divisão
+# Adição e a Subtração
+# Concatenaão de Strings
+
+nome = ("julia")
+sobrenome = ("borges")
+anos = 17
+print("o nome dela é", nome, sobrenome, "ela tem",anos,"anos" )
 
 
+nome = ("julia")
+sobrenome = ("borges")
+nomeinteiro = nome+sobrenome
+print(nomeinteiro)
+
+#contatenaçao de String
+
+nome = "julia"
+sobrenome = " borges"
+nomeinteiro = nome + sobrenome
+print(nomeinteiro)
+
+#multiplicaçao de Strings
+string1 = 'teste ' * 3
+print(string1)
